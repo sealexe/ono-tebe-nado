@@ -1,1 +1,12 @@
-/* место для вашего кода */
+main{
+    background-color: #fff;
+}
+
+.header{
+    box-sizing: border-box;
+    display: grid;
+    width: 1052px;
+    height: 105px;
+    background-color:bisque;
+    margin: 92px 24px 96px;
+}
