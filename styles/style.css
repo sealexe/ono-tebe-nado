@@ -1,12 +1,16 @@
-main{
+* {
+    box-sizing: border-box;
+}
+
+main {
     background-color: #fff;
 }
 
-.header{
-    box-sizing: border-box;
+.header {
     display: grid;
     width: 1052px;
     height: 105px;
-    background-color:bisque;
     margin: 92px 24px 96px;
+    background-color:bisque;
+    
 }
