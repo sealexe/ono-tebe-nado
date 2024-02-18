@@ -41,3 +41,123 @@ main {
     display: block;
     grid-column: 3/4;
 }
+
+.overlay {
+    background-color: rgb(0 0 0);
+    
+}
+
+.cover {
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cover__title {
+    padding: 165px 50px 0px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 100px;    
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.aligned-text {
+    display: block;
+    line-height: 115px;
+}
+
+.aligned-text_center {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 100px;
+}
+
+.aligned-text_right {
+    display: block;
+    text-align: right;
+    line-height: 100px;
+    margin-top: 20px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+   letter-spacing: 0px; 
+}
+
+.cover__description {
+    display: flex;
+    padding: 135px 50px 51px 82px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover__description-text {
+    display: block;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 18px;
+}
+
+.bet-button {
+    display: inline-block;
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 32px 11px 31px;
+}
+
+/* subline */
+
+position: absolute;
+width: 635px;
+height: 28px;
+left: 82px;
+top: 667px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+Аукцион вещей, вкоторые никто не верил
+
+/* Сделать ставку */
+
+position: absolute;
+width: 193px;
+height: 28px;
+left: calc(50% - 193px/2 + 371.5px);
+top: 667px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
