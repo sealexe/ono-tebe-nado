@@ -163,11 +163,15 @@ main {
     position: relative;
     height: 100%;
     text-decoration: none;
+    z-index: -1;
 }
 
 .card {
     display: flex;
-    height: 100%;    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 48px 40px;
 }
 
 .card_type_film {
@@ -188,6 +192,29 @@ main {
     background-position: center;
 }
 
+.card__title {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card__text {
+    position: relative;
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+}
+
 .lots__look-more-link {
     display: block;
     margin-left: 40px;
@@ -201,39 +228,25 @@ main {
 
 
 
-/* title */
+/* Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон? */
 
 position: absolute;
-width: 121px;
-height: 47px;
+width: 254px;
+height: 144px;
 left: 40px;
-top: 0px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-/* identical to box height */
-text-transform: uppercase;
-
-color: #000000;
-
-/* посмотреть больше */
-
-position: absolute;
-width: 192px;
-height: 23px;
-left: 40px;
-top: 667px;
+top: 445px;
 
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 23px;
+line-height: 120%;
+/* or 24px */
 
-color: #000000;
+color: #FFFFFF;
+
+
+
 
 
 
