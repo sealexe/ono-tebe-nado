@@ -246,7 +246,8 @@
 
 .about {
     display: grid;
-    margin: 0 24px 178px;
+    margin-right: 24px;
+    margin-left: 24px;
     grid-template-columns: 334px 1fr;
     grid-template-rows: 595px;
 }
@@ -301,24 +302,60 @@
    gap: 26px;
 }
 
+/* Подвал сайта */
 
-/* Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. */
+.footer {
+    margin: 178px 50px 91px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 97px;    
+}
 
-position: absolute;
-width: 693px;
-height: 168px;
-left: 0px;
-top: 294px;
+.footer__address {
+    grid-column: 1/2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* or 120% */
+}
 
-color: #000000;
+.footer_menu {
+    grid-column: 2/3;
+}
 
+.footer__links-list {
+    list-style-type: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.footer__socialmedia {
+    grid-column: 3/4;
+    justify-self: end;
+}
+
+.footer__socialmedia-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.footer__socialmedia-list-link {
+    display: block;
+    height: 48px;
+}
+
+.footer__socialmedia-list-logo {
+    height: 100%;
+}
 
 
 
