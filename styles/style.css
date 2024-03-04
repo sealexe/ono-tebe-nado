@@ -1,4 +1,6 @@
 
+/* заголовок */
+
 .header {
     display: grid;
     margin: 92px 24px 96px;
@@ -35,15 +37,13 @@
 
 .header_logo {
     display: block;
-    width: 148px;
     height: 100%;
     grid-column: 2/3;
     justify-self: center;
 }
 
 .header__logo-image {
-    width: 148px;
-    height: 105px;
+    height: 100%;
 }
 
 .header__address {
@@ -57,14 +57,13 @@
     justify-self: end;
 }
 
-
+/* оверлей */
 
 .overlay {
     background-color: rgb(0 0 0/.6);
     position: absolute;
     width: 100%;
     height: 100%;
-    
 }
 
 /* входная секция */
@@ -74,7 +73,6 @@
     background-image: url(/images/cover.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
 .cover__title {
@@ -84,8 +82,7 @@
     font-weight: 700;
     font-size: 100px;    
     text-transform: uppercase;
-    letter-spacing: 0.3em;
-    
+    letter-spacing: 0.3em;   
 }
 
 .aligned-text {
@@ -245,113 +242,86 @@
     line-height: 23px;
 }
 
+/* секция об аукционе */
 
-/* contacts */
+.about {
+    display: grid;
+    margin: 0 24px 178px;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: 595px;
+}
+
+.about__column-left {
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.about__logo {
+    display: flex;
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__column-right {
+    grid-column: 2/3;
+    padding-left: 24px;
+    padding-top: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.about__text {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+}
+
+
+/* Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. */
 
 position: absolute;
-width: 240px;
-height: 98px;
-right: 25.48px;
-top: 5px;
-
-
-
-/* наб. Принсенграхт 263-265, Амстердам */
-
-position: absolute;
-width: 240px;
-height: 49px;
-left: 786.52px;
-top: 54px;
+width: 693px;
+height: 168px;
+left: 0px;
+top: 294px;
 
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 20px;
 line-height: 24px;
-/* or 135% */
+/* or 120% */
 
 color: #000000;
 
 
 
-/* info@sobaka.ge */
 
-position: absolute;
-width: 240px;
-height: 24px;
-left: 786.52px;
-top: 30px;
-
-
-
-/* Line 5 */
-
-position: absolute;
-width: 130px;
-height: 0px;
-left: 786.52px;
-top: 54px;
-
-border: 1px solid #000000;
-
-
-/* info@sobaka.ge */
-
-position: absolute;
-width: 240px;
-height: 24px;
-left: 786.52px;
-top: 30px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-/* or 135% */
-
-color: #000000;
-
-
-
-/* +9 999 555 5555 */
-
-position: absolute;
-width: 240px;
-height: 24px;
-left: 786.52px;
-top: 5px;
-
-
-
-/* Line 4 */
-
-position: absolute;
-width: 132px;
-height: 0px;
-left: 786.52px;
-top: 29px;
-
-border: 1px solid #000000;
-
-
-/* +9 999 555 5555 */
-
-position: absolute;
-width: 240px;
-height: 24px;
-left: 786.52px;
-top: 5px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-/* or 135% */
-
-color: #000000;
 
 
 
